@@ -35,10 +35,10 @@ With 2 layers and 43 neurons, the model was not able to achieve a target predict
 
 In attempt to increase model performance, we took the following steps:
 
-        1. Instead of 1 output layer, we encoded the column *IS_SUCCESSFUL* resulting in 2 output layers. We kept the numnber of hidden layers, neurons and epochs the same. We test the data and resulted in a 57.54% for loss and 72.00% for accuracy.
-        2. In our second attempt, we added additional neurons. We doubled the number of input features and split them evenly between the 2 hidden layers. As a result, we received 58.37% for loss and 71.91% for accuracy.
-        3. In our third attempt, since the model with additional neurons did not do so well, we reduced the number of neurons back to our original model with 43 neurons. However, instead of 2 hidden layers, we added a third one and split the neurons to 30 for the first layer, 10 for the second and 3 for the third. We received 58.04% for loss and 71.80% for accuracy.
-        4. In our fourth attempt, we kept everything consistent from our third model and added additional epochs to a total of 200. With this model, we received 57.79% for loss and 72.05% for accuracy.
+   1. Instead of 1 output layer, we encoded the column *IS_SUCCESSFUL* resulting in 2 output layers. We kept the numnber of hidden layers, neurons and epochs the same. We test the data and resulted in a 57.54% for loss and 72.00% for accuracy.    
+   2. In our second attempt, we added additional neurons. We doubled the number of input features and split them evenly between the 2 hidden layers. As a result, we received 58.37% for loss and 71.91% for accuracy.     
+   3. In our third attempt, since the model with additional neurons did not do so well, we reduced the number of neurons back to our original model with 43 neurons. However, instead of 2 hidden layers, we added a third one and split the neurons to 30 for the first layer, 10 for the second and 3 for the third. We received 58.04% for loss and 71.80% for accuracy.      
+   4. In our fourth attempt, we kept everything consistent from our third model and added additional epochs to a total of 200. With this model, we received 57.79% for loss and 72.05% for accuracy.
 
 ### 3. If you were to implement a different model to solve this classification problem, which would you choose? Why?
 
